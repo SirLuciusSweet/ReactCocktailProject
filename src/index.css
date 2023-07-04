@@ -179,9 +179,16 @@ About
   margin: 0 auto;
 }
 .about-section p {
-  line-height: 2rem;
-  font-weight: 400;
+  padding-top: 2rem;
+  line-height: 3rem;
+  font-weight: 700;
+  font-size: 1.5rem;
   letter-spacing: 2px;
+}
+
+.Riccardo {
+  width: 10rem;
+  height: 50rem;
 }
 /* 
 ====== 
@@ -203,9 +210,10 @@ Cocktails List
 */
 
 .section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 .section-title {
+  padding-top: 2rem;
   font-size: 2rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);

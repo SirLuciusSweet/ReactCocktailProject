@@ -12,7 +12,7 @@ export default function CocktailList () {
     if(cocktails.length < 1){ // if it is less than one, show the error
         return (
         <h2 className="section-title">
-            no cocktails matched your search criteria
+            no cocktails matched your search criteria! :-(
         </h2>
         )
     }
